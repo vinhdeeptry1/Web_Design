@@ -1,0 +1,49 @@
+Nội dung
+
+Phông chữ
+
+Cỡ chữ
+
+Độ đậm
+
+Kiểu dáng
+
+Menu chính
+
+ 
+
+ 
+
+ 
+
+ 
+
+Đoạn văn bản
+
+ 
+
+ 
+
+ 
+
+ 
+
+Nội dung vùng chân trang (page footer)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Tiêu đề mức 1 (h1)
+
+ 
+
+ 
+
+ 
+
+ 

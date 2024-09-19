@@ -1,0 +1,11 @@
+Câu 1. Trong CSS, với khai báo: font-family: Verdana, Arial, Helvetica, sans-serif; Phông chữ nào có độ ưu tiên cao nhất.
+B. Verdana
+
+Câu 2. Một số loại phông chữ phổ biến trong CSS gồm:
+A. serif, sans-serif, monospace, cursive, fantasy
+
+Câu 3. Cái nào sau đây không phải là một chuẩn định dạng phông chữ ?
+D. OOF
+
+Câu 4. Trên máy người duyệt web, trình duyệt có thể lấy phông chữ từ đâu? Chỉ ra phát biểu sai.
+D. Máy tính của lập trình viên
