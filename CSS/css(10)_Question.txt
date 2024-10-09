@@ -1,0 +1,11 @@
+Câu 1. Phần tử p sẽ có chữ màu gì, với chỉ dẫn CSS sau: p { color: rgb(255, 0, 0); }
+C. Trắng
+
+Câu 2. Chỉ dẫn CSS nào sau đây hợp lệ?
+D. p { color: rgb(255, 0, 256); }
+
+Câu 3. Chỉ dẫn CSS nào sau đây không hợp lệ?
+C. p { color: rgba(255, 0, 254, .5); }
+
+Câu 4. Muốn giới hạn vùng nền chỉ gồm phần nội dung của phần tử, cần thiết lập giá trị cho thuộc tính background-clip là gì?
+C. content-box

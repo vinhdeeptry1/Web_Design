@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VD1</title>
+    <style>
+        li:first-child{
+            color: red;
+        }
+        input:checked + label {
+            color: red;
+        }
+        input[type="checkbox"]:checked {
+            box-shadow: 0 0 0 3px hotpink;
+        }
+        p::first-letter {
+            color: white;
+            background-color: #333;
+            border-radius: 2px;
+            font-size: 200%;
+            box-shadow: 3px 3px 0 yellow;
+            padding: 6px 3px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p>Một số nội dung cần học để làm web front-end</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>React</li>
+    </ul>
+    <div>
+        <input type="checkbox" name="my-checkbox" id="opt-in">
+        <label for="opt-in">Chọn</label>
+    </div>
+    <p>Ví dụ, chúng ta sẽ làm nổi chữ cái đầu tiên của một đoạn</p>
+</body>
+</html>
