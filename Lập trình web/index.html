@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FairyShop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header với Banner -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>FairyShop</h1>
+      <p>Khám phá phong cách thời trang đỉnh cao!</p>
+      <button onclick="window.location.href='#catalog'">Khám phá ngay</button>
+    </div>
+  </header>
+
+  <!-- Danh mục sản phẩm -->
+  <section id="catalog" class="catalog">
+    <h2>Danh mục sản phẩm</h2>
+    <div class="catalog-grid">
+      <!-- Sản phẩm Nam -->
+      <div class="catalog-item" onclick="viewProduct('Thời trang Nam', 200000)">
+        <img src="https://via.placeholder.com/150" alt="Thời trang Nam">
+        <h3>Thời trang Nam</h3>
+        <p>Giá từ 200,000 VND</p>
+        <button onclick="addToCart(event, 'Thời trang Nam', 200000)">Thêm vào giỏ</button>
+      </div>
+      <!-- Sản phẩm Nữ -->
+      <div class="catalog-item" onclick="viewProduct('Thời trang Nữ', 250000)">
+        <img src="https://via.placeholder.com/150" alt="Thời trang Nữ">
+        <h3>Thời trang Nữ</h3>
+        <p>Giá từ 250,000 VND</p>
+        <button onclick="addToCart(event, 'Thời trang Nữ', 250000)">Thêm vào giỏ</button>
+      </div>
+      <!-- Sản phẩm Trẻ em -->
+      <div class="catalog-item" onclick="viewProduct('Thời trang Trẻ em', 150000)">
+        <img src="https://via.placeholder.com/150" alt="Thời trang Trẻ em">
+        <h3>Thời trang Trẻ em</h3>
+        <p>Giá từ 150,000 VND</p>
+        <button onclick="addToCart(event, 'Thời trang Trẻ em', 150000)">Thêm vào giỏ</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Giỏ hàng -->
+  <section id="cart" class="cart">
+    <h2>Giỏ hàng</h2>
+    <div id="cart-items"></div>
+    <p id="cart-total">Tổng tiền: 0 VND</p>
+    <button onclick="checkout()">Thanh toán</button>
+  </section>
+
+  <!-- Thông tin liên hệ -->
+  <footer class="contact">
+    <h2>Liên hệ với chúng tôi</h2>
+    <p>📍 Địa chỉ: Số 1 Phù Đổng Thiên Vương, P5, Đà Lạt</p>
+    <p>📞 Điện thoại: <a href="tel:0123456789">0123456789</a></p>
+    <p>📧 Email: <a href="mailto:123@gmail.com">123@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
